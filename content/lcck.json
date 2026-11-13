@@ -1,0 +1,245 @@
+{
+  "slug": "lcck",
+  "region": "KNEE",
+  "title": "LCCK 翻修膝關節置換",
+  "system": "Zimmer Biomet NexGen LCCK · Femoral Stem Base Instruments",
+  "summary": "術前快速複習翻修膝關節置換的脛骨重建、股骨定位與屈伸間隙評估。",
+  "planning": [
+    {
+      "title": "影像與排列",
+      "items": [
+        {
+          "text": "以術前影像估計關節線及股骨前後徑。",
+          "pages": "5",
+          "pdfPage": 7,
+          "source": 1
+        }
+      ]
+    },
+    {
+      "title": "植入物與器械",
+      "items": [
+        {
+          "text": "盤點柄部、脛骨底座與增補件，核對器械流程表。",
+          "pages": "2",
+          "pdfPage": 4,
+          "source": 1
+        }
+      ]
+    },
+    {
+      "title": "術前需討論的事項",
+      "items": [
+        {
+          "text": "規劃原植入物取出及骨缺損處理。",
+          "pages": "5",
+          "pdfPage": 7,
+          "source": 1
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "tibial-platform",
+      "title": "建立脛骨重建基準",
+      "summary": "建立後續屈伸間隙評估的脛骨側基準。",
+      "purpose": "建立後續屈伸間隙評估的脛骨側基準。",
+      "instruments": [
+        {
+          "name": "Tibial Boom",
+          "use": "設定對應脛骨底座的後傾"
+        }
+      ],
+      "operations": [
+        "先建立脛骨重建平台，再確認試件覆蓋。"
+      ],
+      "checks": [
+        "核對骨量、脛骨托盤覆蓋、柄部定位及增補件需求。"
+      ],
+      "pitfalls": [
+        {
+          "text": "保留骨量，避免為了消除所有骨缺損而加深截骨。",
+          "pages": "8",
+          "pdfPage": 10,
+          "source": 1
+        }
+      ],
+      "values": [
+        {
+          "text": "0° 對應 A/P wedge 底座，3° 對應 3° fluted 底座。",
+          "pages": "7",
+          "pdfPage": 9,
+          "source": 1
+        }
+      ],
+      "branches": [],
+      "pages": "6–16",
+      "pdfPage": 8,
+      "source": 1
+    },
+    {
+      "id": "femoral-position",
+      "title": "確認股骨尺寸與旋轉",
+      "summary": "建立股骨元件與髓腔的相對位置。",
+      "purpose": "建立股骨元件與髓腔的相對位置。",
+      "instruments": [
+        {
+          "name": "Revision Rotational Alignment Guide",
+          "use": "參照股骨經上髁軸確認旋轉"
+        }
+      ],
+      "operations": [
+        "確認髓腔與股骨元件的相對位置，評估直柄或偏心柄。"
+      ],
+      "checks": [
+        "核對髓腔方向、股骨尺寸與旋轉，確認直柄或偏心柄的配置。"
+      ],
+      "pitfalls": [
+        {
+          "text": "若改用偏心柄，記錄 offset bushing 的刻度方向供後續重現。",
+          "pages": "25",
+          "pdfPage": 27,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [
+        {
+          "text": "若用 MILL／5-in-1，股骨定位改查直柄 Appendix E 或偏心柄 Appendix F。Crossover 適用於已完成對應非柄式股骨前後切面的情境，見 Appendix A。",
+          "pages": "2",
+          "pdfPage": 4,
+          "source": 1
+        }
+      ],
+      "pages": "17–27",
+      "pdfPage": 19,
+      "source": 1
+    },
+    {
+      "id": "gap-balance",
+      "title": "評估屈伸間隙與增補件",
+      "summary": "恢復屈伸穩定性與關節線。",
+      "purpose": "恢復屈伸穩定性與關節線。",
+      "instruments": [
+        {
+          "name": "LPS Articular Surface Provisional",
+          "use": "在股骨 box 準備前用於間隙評估"
+        }
+      ],
+      "operations": [
+        "先評估屈曲間隙，保留所選試墊再評估伸直時的排列及側副韌帶張力。"
+      ],
+      "checks": [
+        "分別檢視屈曲與伸直間隙，確認遠端或後方增補件的需求。"
+      ],
+      "pitfalls": [
+        {
+          "text": "此階段尚未完成 LCCK box，使用手冊指定的 LPS 試墊。",
+          "pages": "28",
+          "pdfPage": 30,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "28–32",
+      "pdfPage": 30,
+      "source": 1
+    },
+    {
+      "id": "box-patella",
+      "title": "完成股骨與髕骨準備",
+      "summary": "讓試件能反映預定的重建構型。",
+      "purpose": "讓試件能反映預定的重建構型。",
+      "instruments": [
+        {
+          "name": "LCCK Notch/Chamfer Guide",
+          "use": "確認 box 與斜面切割的旋轉定位"
+        }
+      ],
+      "operations": [
+        "保留旋轉參考後完成 box 準備，另評估髕骨元件是否需翻修。"
+      ],
+      "checks": [
+        "核對 LCCK box 與選定元件，確認髕骨處理計畫。"
+      ],
+      "pitfalls": [
+        {
+          "text": "若髕骨元件不相容或鬆動，先評估剩餘骨量。",
+          "pages": "37",
+          "pdfPage": 39,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "33–37",
+      "pdfPage": 35,
+      "source": 1
+    },
+    {
+      "id": "trial-implant",
+      "title": "試模與植入",
+      "summary": "在植入前確認整體重建。",
+      "purpose": "在植入前確認整體重建。",
+      "instruments": [
+        {
+          "name": "Modular Box Provisional",
+          "use": "模擬最終股骨 box 構型"
+        }
+      ],
+      "operations": [
+        "裝上試用 box 與計畫使用的增補件，確認試模後再核對最終植入物。"
+      ],
+      "checks": [
+        "檢查屈伸穩定性、髕骨軌跡及試件與最終元件的配置。"
+      ],
+      "pitfalls": [
+        {
+          "text": "植入前核對股骨、脛骨及關節面元件的配色相容性。",
+          "pages": "40",
+          "pdfPage": 42,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "38–41",
+      "pdfPage": 40,
+      "source": 1
+    }
+  ],
+  "checks": [
+    {
+      "title": "試模時確認",
+      "items": [
+        {
+          "text": "屈曲與伸直間隙均已評估。",
+          "stage": "trial-implant"
+        },
+        {
+          "text": "已檢視關節線及髕骨軌跡。",
+          "stage": "trial-implant"
+        }
+      ]
+    },
+    {
+      "title": "最終植入及術畢確認",
+      "items": [
+        {
+          "text": "已核對柄部、增補件與最終元件。",
+          "stage": "trial-implant"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zimmer Biomet · Revision NexGen LCCK Instrumentation",
+      "section": "1401.1-GLBL-en REV0517 A4。頁碼依手冊印刷頁碼。",
+      "url": "https://www.zimmerbiomet.com/content/dam/zb-corporate/en/products/specialties/knee/nexgen-complete-knee-solution/RevisionNexGenLCCKInstrumentation14011GLBLenREV0517A4.pdf",
+      "localPdf": "RevisionNexGenLCCKInstrumentation14011GLBLenREV0517A41.pdf"
+    }
+  ]
+}

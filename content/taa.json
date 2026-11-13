@@ -1,0 +1,247 @@
+{
+  "slug": "taa",
+  "region": "ANKLE",
+  "title": "TAA 全踝關節置換",
+  "system": "Zimmer Biomet Trabecular Metal Total Ankle · 外側經腓骨入路",
+  "summary": "術前快速複習外側經腓骨入路、對位架、骨床與 rail holes 準備，以及試模與腓骨修復。",
+  "planning": [
+    {
+      "title": "影像與排列",
+      "items": [
+        {
+          "text": "以已知放大倍率的正、側位踝部影像估計覆蓋與排列。",
+          "pages": "8",
+          "pdfPage": 10,
+          "source": 1
+        }
+      ]
+    },
+    {
+      "title": "植入物與器械",
+      "items": [
+        {
+          "text": "核對尺寸模板與外側對位架。",
+          "pages": "8",
+          "pdfPage": 10,
+          "source": 1
+        }
+      ]
+    },
+    {
+      "title": "術前需討論的事項",
+      "items": [
+        {
+          "text": "術前討論足踝畸形及是否需先矯正。",
+          "pages": "8",
+          "pdfPage": 10,
+          "source": 1
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "exposure-sizing",
+      "title": "暴露關節與初估寬度",
+      "summary": "取得外側操作空間及內外側尺寸基準。",
+      "purpose": "取得外側操作空間及內外側尺寸基準。",
+      "instruments": [
+        {
+          "name": "M/L Sizer Gauge",
+          "use": "估計距骨內外側寬度"
+        }
+      ],
+      "operations": [
+        "依手冊的外側經腓骨入路暴露關節，並以內側溝視野輔助尺寸確認。"
+      ],
+      "checks": [
+        "核對經腓骨暴露、內側溝視野，以及元件內外側覆蓋。"
+      ],
+      "pitfalls": [
+        {
+          "text": "用透視核對量具位置，檢查外側是否突出。",
+          "pages": "12",
+          "pdfPage": 14,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "9–12",
+      "pdfPage": 11,
+      "source": 1
+    },
+    {
+      "id": "alignment",
+      "title": "建立對位並確認元件位置",
+      "summary": "將踝關節排列與預定重建的旋轉中心對應。",
+      "purpose": "將踝關節排列與預定重建的旋轉中心對應。",
+      "instruments": [
+        {
+          "name": "Alignment Stand",
+          "use": "建立固定的肢體與足部對位基準"
+        }
+      ],
+      "operations": [
+        "先定位並固定，完成冠狀與矢狀面核對後，再評估前後徑覆蓋及重建旋轉中心。"
+      ],
+      "checks": [
+        "以透視核對對位架設定、前後徑覆蓋與切割導引位置。"
+      ],
+      "pitfalls": [
+        {
+          "text": "調整對位後重新鎖緊夾具，並以透視再次確認。",
+          "pages": "22",
+          "pdfPage": 24,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "13–27",
+      "pdfPage": 15,
+      "source": 1
+    },
+    {
+      "id": "bone-rails",
+      "title": "準備骨床與 rail holes",
+      "summary": "使脛骨及距骨元件能依預定位置就位。",
+      "purpose": "使脛骨及距骨元件能依預定位置就位。",
+      "instruments": [
+        {
+          "name": "Pre-Cutting Guide / Rail Hole Drill Guides",
+          "use": "分別定位預鑽孔與植入物 rail 孔道"
+        }
+      ],
+      "operations": [
+        "完成骨床準備後，依元件尺寸與側別選擇 rail 導引器並確認貼合。"
+      ],
+      "checks": [
+        "核對骨床、導引器貼合，以及孔道的深度、對位與平行性。"
+      ],
+      "pitfalls": [
+        {
+          "text": "透視檢查導引器是否翹起，並核對孔道深度、對位與平行性。",
+          "pages": "46",
+          "pdfPage": 48,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "28–46",
+      "pdfPage": 30,
+      "source": 1
+    },
+    {
+      "id": "trial-reduction",
+      "title": "試模與活動度確認",
+      "summary": "確認試件在踝關節活動時的表現。",
+      "purpose": "確認試件在踝關節活動時的表現。",
+      "instruments": [
+        {
+          "name": "Talar and Tibial Provisionals",
+          "use": "確認試件覆蓋、活動度與軟組織張力"
+        }
+      ],
+      "operations": [
+        "試件就位後評估活動度及張力，確認元件覆蓋與骨床貼合。"
+      ],
+      "checks": [
+        "檢視試件就位、關節活動度及透視下的元件位置。"
+      ],
+      "pitfalls": [
+        {
+          "text": "核對試件側別、尺寸標記與是否有外側突出。",
+          "pages": "47",
+          "pdfPage": 49,
+          "source": 1
+        }
+      ],
+      "values": [
+        {
+          "text": "手冊以標準厚度（+0）的 Tibial Provisional 開始試模。",
+          "pages": "47",
+          "pdfPage": 49,
+          "source": 1
+        }
+      ],
+      "branches": [],
+      "pages": "47–49",
+      "pdfPage": 49,
+      "source": 1
+    },
+    {
+      "id": "implant-closure",
+      "title": "植入與腓骨修復",
+      "summary": "完成元件固定並確認腓骨復位。",
+      "purpose": "完成元件固定並確認腓骨復位。",
+      "instruments": [
+        {
+          "name": "Cement Mixing and Delivery System",
+          "use": "將骨水泥送至植入物 rail 下方"
+        }
+      ],
+      "operations": [
+        "核對元件就位後依手冊完成骨水泥固定，再修復腓骨並評估穩定性。"
+      ],
+      "checks": [
+        "核對元件就位與手冊規定的 rail 骨水泥固定，並確認腓骨復位後的穩定性。"
+      ],
+      "pitfalls": [
+        {
+          "text": "腓骨固定後以透視評估外旋應力下的穩定性。",
+          "pages": "58",
+          "pdfPage": 60,
+          "source": 1
+        }
+      ],
+      "values": [],
+      "branches": [],
+      "pages": "50–58",
+      "pdfPage": 52,
+      "source": 1
+    }
+  ],
+  "checks": [
+    {
+      "title": "試模時確認",
+      "items": [
+        {
+          "text": "確認試件就位與覆蓋。",
+          "stage": "trial-reduction"
+        },
+        {
+          "text": "確認試模活動度及張力。",
+          "stage": "trial-reduction"
+        }
+      ]
+    },
+    {
+      "title": "最終植入及術畢確認",
+      "items": [
+        {
+          "text": "以透視核對最終元件位置。",
+          "stage": "implant-closure"
+        },
+        {
+          "text": "已確認腓骨復位及關節穩定性。",
+          "stage": "implant-closure"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Zimmer Biomet · Trabecular Metal Total Ankle Surgical Technique",
+      "section": "97-4501-101-00 Rev.3 US（2017）。頁碼依手冊印刷頁碼。",
+      "url": "https://www.zimmerbiomet.com/content/dam/zimmer-biomet/medical-professionals/000-surgical-techniques/foot-and-ankle/trabecular-metal-total-ankle-surgical-technique.pdf",
+      "localPdf": "trabecular-metal-total-ankle-surgical-technique.pdf"
+    }
+  ],
+  "postoperative": {
+    "pages": "58",
+    "pdfPage": 60,
+    "source": 1
+  }
+}
