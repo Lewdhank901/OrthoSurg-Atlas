@@ -134,29 +134,29 @@ export default {
     "exposure-sizing": [
       {
         "file": "exposure-sizing-page-9.webp",
-        "page": 9,
-        "pdfPage": 11,
+        "page": 5,
+        "pdfPage": 7,
         "title": "確認擺位與器械空間",
         "body": "術前影像估算用來準備可能尺寸與評估排列。擺位時保留外側器械與透視空間，最後尺寸由術中的 M/L 與 A/P Sizer 確認。"
       },
       {
         "file": "exposure-sizing-page-10.webp",
-        "page": 10,
-        "pdfPage": 12,
+        "page": 6,
+        "pdfPage": 8,
         "title": "外側暴露與腓骨截骨",
         "body": "依外側入路暴露遠端腓骨與外側韌帶。辨識並保護淺腓神經分支，再依原廠圖確認斜形截骨的方向，以便後續翻開及復位遠端腓骨。"
       },
       {
         "file": "exposure-sizing-page-11.webp",
-        "page": 11,
-        "pdfPage": 13,
+        "page": 7,
+        "pdfPage": 9,
         "title": "翻開腓骨並檢視內側溝",
         "body": "翻開遠端腓骨後，依手冊以 1.6 mm K-wire 暫時固定於足部，讓外側關節面可見。檢視內側溝，並在後續試模時將腓骨復位，確認骨性夾擠。"
       },
       {
         "file": "exposure-sizing-page-12.webp",
-        "page": 12,
-        "pdfPage": 14,
+        "page": 8,
+        "pdfPage": 10,
         "title": "測量內外側寬度",
         "body": "M/L Sizer Gauge 或 M/L Sizer 推至距骨內側緣，以透視確認位置，再讀取外側對應刻線。找出無外側懸突的最大號。若落在兩號之間，取小號。此數字是後續 A/P 選號的上限。"
       }
@@ -164,29 +164,29 @@ export default {
     "alignment": [
       {
         "file": "alignment-page-13.webp",
-        "page": 13,
-        "pdfPage": 15,
+        "page": 9,
+        "pdfPage": 11,
         "title": "架設足跟與小腿支撐",
         "body": "將足跟置於 Heel Support Cup，將足板支撐組件接到 Alignment Stand。小腿放入 Calf Support Blocks 時保持置中。若裝上支撐架後關節仍未對準，先調整足跟與小腿支撐位置，再進入外固定對位。"
       },
       {
         "file": "alignment-page-22.webp",
-        "page": 22,
-        "pdfPage": 24,
+        "page": 18,
+        "pdfPage": 20,
         "title": "確認對位及張力",
         "body": "若內外翻變形或三角韌帶鬆弛影響對位，可鬆開近端三個 Pin-to-Rod Clamp 的桿側，手動牽開以調整。排列確認後重新鎖緊，再用透視複核。若 Tibial Alignment Rod 妨礙透視，可先移除。"
       },
       {
         "file": "alignment-page-23.webp",
-        "page": 23,
-        "pdfPage": 25,
+        "page": 19,
+        "pdfPage": 21,
         "title": "核對前後徑尺寸",
         "body": "先用與 M/L 測得尺寸同號的 A/P Sizer，比較預定骨切曲線與前後覆蓋。可轉動 Sizer 分開核對脛骨及距骨。若前後懸突過多，或解剖落在兩號之間，選小號。脛骨與距骨元件須同號，再換上同號 Cutting Guide。"
       },
       {
         "file": "alignment-page-27.webp",
-        "page": 27,
-        "pdfPage": 29,
+        "page": 23,
+        "pdfPage": 25,
         "title": "核對關節線與旋轉中心",
         "body": "比較 Center Probe 的掃掠弧與預定關節線。若中心過前、過後、過近端或過遠端，鬆開對應鎖定點，沿 A/P 或近遠端調整，再鎖緊複核。解剖變形使關節線難判定時，可用 A/P Sizer 的中央孔協助定位。"
       }
@@ -194,29 +194,29 @@ export default {
     "bone-rails": [
       {
         "file": "bone-rails-page-28.webp",
-        "page": 28,
-        "pdfPage": 30,
+        "page": 24,
+        "pdfPage": 26,
         "title": "定位預鑽孔",
         "body": "Pre-Cutting Guide 採與最終選定植入物相同的尺寸。確認導板與定位孔關係，再核對預鑽孔位置。導板鎖合後再確認固定與可見的解剖位置。 若距骨最前或最後的孔未落在骨上，分別檢查距骨與脛骨導板旋轉，並評估是否需微調骨切。"
       },
       {
         "file": "bone-rails-page-39.webp",
-        "page": 39,
-        "pdfPage": 41,
+        "page": 35,
+        "pdfPage": 37,
         "title": "核對距骨骨床",
         "body": "Fig. 62 的終點是 Bur Guard Stop 接觸 Cutting Guide。若仍有殘留骨突，依 Fig. 63 將 Stop 每次向外側調整 1–2 mm 並鎖定，再逐次核對骨床，特別是後內側角。依手冊以 Posterior Tissue Retractor 保護後內側神經血管構造，並避免磨頭接觸內踝。"
       },
       {
         "file": "bone-rails-page-40.webp",
-        "page": 40,
-        "pdfPage": 42,
+        "page": 36,
+        "pdfPage": 38,
         "title": "選配 rail 孔道導引器",
         "body": "脛骨與距骨 Rail Hole Drill Guide 均依選定尺寸與左／右側配對。用 key／slot 接合後確認兩個導引器貼合骨面。Rail 孔會決定植入物的 M/L 深度、A/P 位置與軸向對位。"
       },
       {
         "file": "bone-rails-page-46.webp",
-        "page": 46,
-        "pdfPage": 48,
+        "page": 42,
+        "pdfPage": 44,
         "title": "複核 rail 孔道",
         "body": "側位透視確認導引器貼骨，並檢查 rail 孔是否平行、深度一致及有無鑽頭滑偏。若 Stabilizer 使導引器翹起，或孔道不一致，重新置入導引器再鑽。依設計，孔道不會達到切除區的內側邊緣。"
       }
@@ -224,15 +224,15 @@ export default {
     "trial-reduction": [
       {
         "file": "trial-reduction-page-47.webp",
-        "page": 47,
-        "pdfPage": 49,
+        "page": 43,
+        "pdfPage": 45,
         "title": "放入脛骨與距骨試件",
         "body": "選同號且左右側正確的脛骨與距骨試件。脛骨先用標準厚度 +0，確認尺寸刻字朝外側、無外側懸突，且試件完整貼合曲面。若 rail 孔造成未就位，先用導引器重鑽。仍無法就位時，原廠列出用 5 mm Rail Hole Drill 小心修整其中一個受影響孔道的選項。"
       },
       {
         "file": "trial-reduction-page-48.webp",
-        "page": 48,
-        "pdfPage": 50,
+        "page": 44,
+        "pdfPage": 46,
         "title": "試模活動度與張力",
         "body": "以外翻應力及手動牽開評估內側張開與鬆弛。若 +0 試件仍鬆，改試較厚的 +2 或 +4，重新檢查內側張開、外側吻合及活動度，避免過度填塞。手冊列背屈至少 5° 為確認點，未達時在關閉前評估是否需延長跟腱或施行腓腸肌鬆解。"
       }
@@ -240,22 +240,22 @@ export default {
     "implant-closure": [
       {
         "file": "implant-closure-page-50.webp",
-        "page": 50,
-        "pdfPage": 52,
+        "page": 46,
+        "pdfPage": 48,
         "title": "植入前核對元件與骨床",
         "body": "將脛骨與距骨正式元件的尺寸、側別及所選厚度與最後試模比對。組裝時核對 Inserter 的「Articular Surface Up」刻字，並依原廠圖確認距骨元件標誌的方向。"
       },
       {
         "file": "implant-closure-page-56.webp",
-        "page": 56,
-        "pdfPage": 58,
+        "page": 52,
+        "pdfPage": 54,
         "title": "確認 rail 骨水泥固定",
         "body": "按同號 Talar Provisional 的 rail 長度在 Cement Delivery Needle 作深度記號，用以核對內側孔深。按 Fig. 97 查該尺寸的每孔參考用量，手冊並提醒典型骨密度的表列用量需按骨質評估。"
       },
       {
         "file": "implant-closure-page-57.webp",
-        "page": 57,
-        "pdfPage": 59,
+        "page": 53,
+        "pdfPage": 55,
         "title": "修復腓骨與確認穩定性",
         "body": "腓骨復位後評估踝關節穩定性與骨性夾擠。踝置中立位時，以內翻應力確認跟腓韌帶有張力。若仍有內翻或外翻不穩，手冊列出利用斜形截骨處微調腓骨長度，再以骨板固定並確認復位與軸向。"
       }
