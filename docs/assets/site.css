@@ -1,0 +1,53 @@
+:root{color-scheme:dark;--bg:#0c1824;--surface:#142534;--line:#304654;--ink:#f1f6f6;--muted:#b2c6ce;--accent:#78e0cf}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.7 "Inter","Microsoft JhengHei",sans-serif}
+.wrap{width:min(100% - 2rem,66rem);margin-inline:auto}
+header{border-bottom:1px solid var(--line);padding:1rem 0}
+a{color:var(--accent);overflow-wrap:anywhere}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.brand{font-weight:750;letter-spacing:.04em;text-decoration:none;color:var(--ink)}
+.brand span,.region,.action{color:var(--accent)}
+.hero{padding:clamp(2rem,8vw,6rem) 0 2rem}
+h1,h2,h3,p{margin:0 0 .6rem}
+h1{font-size:clamp(2rem,6vw,4rem);line-height:1.15}
+h2{line-height:1.3}
+.hero p,.card p:not(.region),footer{color:var(--muted)}
+.region{font-size:.8rem;font-weight:750;letter-spacing:.14em}
+.system{font-size:.9rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1rem}
+.card,section{background:var(--surface);border:1px solid var(--line);border-radius:1rem;padding:clamp(1rem,4vw,2rem)}
+.card{color:var(--ink);text-decoration:none;display:flex;flex-direction:column}
+.card:hover{border-color:var(--accent)}
+.action{margin-top:auto;padding-top:1rem;font-weight:700}
+.back{display:inline-block;margin-top:1.5rem}
+nav{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin-bottom:1rem}
+section{margin-bottom:1rem}
+section,li[id]{scroll-margin-top:1rem}
+li+li{margin-top:.7rem}
+.steps li{padding-left:.35rem}
+.steps li::marker{color:var(--accent);font-weight:700}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding:1.25rem 0;font-size:.85rem}
+.flow{display:grid;grid-auto-flow:column;grid-auto-columns:1fr;gap:1.25rem;list-style:none;padding:0;counter-reset:stage}
+.flow li{position:relative;margin:0;counter-increment:stage;display:flex}
+.flow li+li::before{content:"→";position:absolute;left:-1rem;top:50%;transform:translateY(-50%);color:var(--accent)}
+.flow a{display:block;width:100%;padding:.7rem .85rem;border:1px solid var(--line);border-radius:.6rem;text-decoration:none}
+.flow a::before{content:counter(stage);display:block;font-weight:750}
+.flow a:hover{border-color:var(--accent)}
+.stage{border-top:1px solid var(--line);scroll-margin-top:1rem}
+.stage summary{cursor:pointer;padding:1rem .25rem;color:var(--accent)}
+.stage summary span{display:block;padding-left:1.1rem;color:var(--muted);font-size:.9rem}
+.stage-body{padding:0 1rem 1rem}
+.stage-body h4{margin:1rem 0 .3rem}
+.stage-body ul{margin:.2rem 0}
+@media(max-width:48rem){.flow{grid-auto-flow:row;grid-auto-columns:auto}.flow li+li::before{content:"↓";top:-1.27rem;left:1rem;transform:none}.flow a::before{display:inline;margin-right:.7rem}}
+.manual-gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,14rem),1fr));gap:1rem}
+.manual-gallery figure{margin:0;min-width:0}
+.manual-gallery img{display:block;width:100%;height:auto;max-height:22rem;object-fit:contain;background:#fff;border-radius:.5rem}
+.manual-gallery figcaption{margin-top:.3rem;color:var(--muted);font-size:.85rem}
+.illustrated-steps{padding-left:1.45rem}
+.illustrated-steps>li{padding:.9rem .1rem;border-top:1px solid var(--line)}
+.illustrated-steps h5{font-size:1rem;margin:0 0 .35rem;color:var(--ink)}
+.illustrated-steps figure{margin:.75rem 0 0;max-width:23rem}
+.illustrated-steps img{display:block;width:100%;height:auto;background:#fff;border-radius:.45rem}
+.illustrated-steps figcaption{margin-top:.35rem;font-size:.85rem;color:var(--muted)}
+@media(min-width:48rem){.illustrated-steps>li>div{display:inline-block;width:46%;vertical-align:top;padding-right:1rem}.illustrated-steps figure{display:inline-block;width:52%;vertical-align:top;margin:0}}
