@@ -65,9 +65,13 @@ for (const item of procedures) {
   const illustratedSteps = (step) => {
     const items = figures[item.slug]?.[step.id] ?? [];
     if (!items.length) return '';
-    return '<h4>圖解子步驟</h4><ol class="illustrated-steps">' + items.map(({ page, pdfPage, title, body }) => {
+    return '<h4>圖解子步驟</h4><ol class="illustrated-steps">' + items.map(({ file, page, pdfPage, title, body }) => {
+      const url = '../../figures/' + item.slug + '/' + encodeURIComponent(file);
       return '<li><div><h5>' + escape(title) + '</h5><p>' + escape(body) + '</p><p>' +
-        pdfLink({ pages: page, pdfPage, source: step.source }) + '</p></div></li>';
+        pdfLink({ pages: page, pdfPage, source: step.source }) + '</p></div><figure>' +
+        '<a href="' + url + '" target="_blank" rel="noopener" aria-label="放大手冊第 ' + page +
+        ' 頁"><img loading="lazy" src="' + url + '" alt="' + escape(title) + '，原廠手冊第 ' + page +
+        ' 頁"></a><figcaption>Zimmer Biomet · 手冊第 ' + page + ' 頁 · 點圖放大</figcaption></figure></li>';
     }).join('') + '</ol>';
   };
   const steps = item.steps.map((step) => `<details id="stage-${step.id}" class="stage"><summary>
