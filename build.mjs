@@ -40,7 +40,7 @@ function page(title, root, body, interactive = false) {
 <title>${escape(title)} · OrthoSurg Atlas</title><link rel="stylesheet" href="${root}assets/site.css">
 ${interactive ? '<script defer src="' + root + 'assets/stages.js"></script>' : ''}</head>
 <body><header><div class="wrap"><a class="brand" href="${root}index.html">OrthoSurg <span>Atlas</span></a></div></header>
-<main class="wrap">${body}</main><footer class="wrap">骨科住院醫師教學 · 植入物與器械操作請查閱對應版本的原廠手冊。</footer></body></html>`;
+<main class="wrap">${body}</main><footer class="wrap">骨科醫師教學 · 植入物與器械操作請查閱對應版本的原廠手冊。</footer></body></html>`;
 }
 
 const list = (items) => items.map((value) => `<li>${escape(value)}</li>`).join('');
@@ -48,7 +48,7 @@ const cards = procedures.map((item) => `<a class="card" href="procedures/${item.
 <p class="region">${escape(item.region)}</p><h2>${escape(item.title)}</h2><p class="system">${escape(item.system)}</p>
 <p>${escape(item.summary)}</p><span class="action">瀏覽手術流程 →</span></a>`).join('');
 writeFileSync(output + '/index.html', page('骨科手術圖譜', './',
-  `<div class="hero"><h1>骨科手術圖譜</h1><p>為骨科住院醫師整理的術前複習與手術流程教學。</p>
+  `<div class="hero"><h1>骨科手術圖譜</h1><p>為骨科醫師整理的術前複習與手術流程教學。</p>
   <p>選擇術式後，點選流程圖可跳到並展開階段詳解。點手冊頁碼可查閱原廠 PDF。</p></div>
   <div class="cards">${cards}</div>`));
 

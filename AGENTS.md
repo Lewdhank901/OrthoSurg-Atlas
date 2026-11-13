@@ -2,7 +2,7 @@
 
 ## 專案目的
 
-OrthoSurg Atlas 提供骨科住院醫師術前快速複習與分階段教學。現有頁面包含 NexGen LCCK 翻修膝關節置換與 Trabecular Metal Total Ankle 全踝關節置換。LCCK 主流程採 Femoral Stem Base Instruments。不同器械的差異放在相關階段。內容從術前規劃至術畢確認，術後照護引用對應手冊章節。
+OrthoSurg Atlas 提供骨科醫師術前快速複習與分階段教學。現有頁面包含 NexGen LCCK 翻修膝關節置換與 Trabecular Metal Total Ankle 全踝關節置換。LCCK 主流程採 Femoral Stem Base Instruments。不同器械的差異放在相關階段。內容從術前規劃至術畢確認，術後照護引用對應手冊章節。
 
 ## 網站與頁面規格
 
